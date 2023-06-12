@@ -9,6 +9,6 @@ Stream<int> emitNumbers() async* {
 
   for (int i in valuesToEmit) {
     await Future.delayed(const Duration(seconds: 1));
-    yield i; //ten este valor ahora y ahora enves de return
+    yield i; //ten este valor ahora y ahora en ves de return
   }
 }
